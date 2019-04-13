@@ -6,7 +6,7 @@ import (
 	"rsc.io/quote"
 )
 
-const version = "0.1.0"
+const version = "0.2.3"
 
 func main() {
 	fmt.Println("version: " + version)
