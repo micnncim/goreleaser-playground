@@ -57,4 +57,4 @@ snapcraft:
   description: |
     GoReleaser playground
   grade: stable
-  confinement: classic
+  confinement: strict
