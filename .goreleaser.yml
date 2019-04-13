@@ -30,7 +30,7 @@ changelog:
 brew:
   github:
     owner: micnncim
-    name: goreleaser-playground
+    name: homebrew-goreleaser-playground
   folder: formula
   homepage:  https://github.com/micnncim/goreleaser-playground
   description: GoReleaser playground
