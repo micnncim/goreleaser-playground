@@ -34,8 +34,6 @@ brew:
   folder: Formula
   homepage:  https://github.com/micnncim/goreleaser-playground
   description: GoReleaser playground
-  install: |
-    bin.install "goreleaser-playground"
   test: |
     system "#{bin}/goreleaser-playground -v"
 scoop:
