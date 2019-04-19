@@ -43,19 +43,6 @@ scoop:
   homepage:  https://github.com/micnncim/goreleaser-playground
   description: GoReleaser playground
   license: MIT
-nfpm:
-  name_template: '{{ .ProjectName }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}'
-  homepage: https://github.com/micnncim/goreleaser-playground
-  description: GoReleaser playground
-  maintainer: micnncim <micnncim@gmail.com>
-  license: MIT
-  formats:
-  - deb
-  - rpm
-  dependencies:
-  - git
-  recommends:
-  - rpm
 snapcraft:
   name_template: '{{ .ProjectName }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}'
   publish: true
