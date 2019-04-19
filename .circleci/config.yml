@@ -5,7 +5,6 @@ jobs:
       - image: circleci/golang:1.11
     steps:
       - checkout
-      - run: sudo apt install -y snapcraft
       - run: curl -sL https://git.io/goreleaser | bash
 workflows:
   version: 2
